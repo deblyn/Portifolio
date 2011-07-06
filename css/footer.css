@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* Estilização do arquivo footer.php */
+
+/* |== Footer ==| */
+
+div#footer {
+	background-color: #266692;
+}
+
+.imgfooter  {
+	margin: 7px 10px;
+	float: right;
+}
+
+#esp {
+	font-size: 10px;
+	float: left;
+}
+
+
+#assinatura {
+	text-align: center;
+	max-width: 15%;
+	display: inline;
+}
+
+span#twitter {
+	font-family: PICOBLA;
+	font-size: 14px;
+	color: #6DD9F5;
+}

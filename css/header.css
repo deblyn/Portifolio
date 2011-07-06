@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* Estilização do arquivo header.php */
+
+/* ==| Técnicas da CSS3 para importação da fonte direto do Servidor de Hospedagem |== */
+
+@font-face {
+	/*Font da Logo */
+	font-family: 'troglo';
+	src: url('../font/troglo.ttf'),
+	url('../font/troglo.eot?#iefix');
+	
+	/*Font do Twitter*/
+	font-family: 'PICOBLA'; 
+	src: url('../font/PICOBLA_.ttf'),
+	url('../font/PICOBLA_.eot?#iefix');
+}
+
+
+/* |== Arte do Header: Logo, Título, Descrição e Menus |== */
+
+#header {
+	background-color: #266692;
+}
+
+img#foto {
+	position: relative;
+	margin: 30px 0 0 0;
+}
+
+h1 {
+	font-family: troglo;
+	color: #fefefe;
+	margin: -200px 0 0 180px;
+	font-size:48px;
+}
+
+span.dp{
+	font-family: troglo;
+	color: #08132b;
+	font-size:48px;
+}
+
+
+div#inf {
+	margin: 0 0 0 180px;
+	text-align: justify;
+	width: 325px;
+	font-size: 10px;
+}
+
+
+
+div#logo {
+	margin-left: 625px;
+	margin-top: -45px;
+	min-height: 121%;
+	position: absolute;	top: 0;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+}
+
+
+div.logo span{
+	color: #08132b;
+}
+
+div#header hr {
+	margin-top: 55px;
+	margin-bottom: 50px;
+}
+
+
+div#menu ul{
+	width: 125%; height:25px;
+	margin-left: -82px; margin-top: 224px;
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+div#menu ul li { 
+	float: left; 
+	margin: 0 5px; padding: 0 16px;
+	letter-spacing: 2px;
+	line-height: 25px;
+	color: #FFF;
+	font-weight: bold; font-size: 14px;
+	
+}
+
+div#menu a {font-size: 14px;}
+
+div#menu ul li:hover{
+	background-color: #08132b;
+	font-size: 14px;	
+	color: #0C6;
+}

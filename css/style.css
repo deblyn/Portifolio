@@ -1,0 +1,106 @@
+/* #####################################################
+	Criado por: Deblyn Prado
+	Contato: contato@deblyn.com.br
+	Description: 
+##################################################### */
+
+@import url("header.css");
+@import url("footer.css");
+
+/* Reset nas Configurações do Browser e padronizando de acordo com o layout do site */
+
+* {
+	margin: 0; 	padding: 0;
+	list-style: none;
+	outline: none;
+	text-decoration: none;
+	color: #FFF; border: none;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+hr {
+	line-height: 10px;
+	border: 2px solid white;
+
+}
+
+/* FIM do Reset */
+
+
+#container {
+	background-color: #112c4a;
+	min-height: 100%; width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* -==| Estilos da home |==- */
+
+div.esq, div.dir {
+	min-height: 100%; min-width: 420px;
+	display: inline; float: left;
+	background-color: #08132b;
+	margin: 20px 4% 50px 4%;
+	padding: 2% 0;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+}
+
+div.esq img, div.dir img {
+	margin-left: 5%;
+	margin-top: -90px;
+}
+
+dv.esq p a:hover, div.dir p a:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+}
+
+div.esq p, div.dir p {
+	
+	text-align: left;
+	margin-left: 190px;
+}
+
+div.esq p span.detalhes, div.dir p span.detalhes {
+	margin-left: 60%;
+	size: 10px;	color: #266692;
+	text-decoration: underline;
+}
+
+/* -==| Estilos de formacao |==- */
+
+.andamento {
+	padding-left: 5%;
+	background-color: #08132b;
+}
+
+h2 hr {
+	margin-top: 0;
+}
+
+.left {
+	margin-top: 2%;
+}
+
+.andamento h3, .concluido h3 {
+	color: #266692;
+}
+
+.andamento h3
+
+/* -==| Estilos de experiencia |==- */
+
+div.expesq, div.expdir {
+	min-height: 100%; min-width: 420px;
+	display: inline; float: left;
+	margin: 20px 4% 50px 4%;
+	padding: 2% 0;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+}
