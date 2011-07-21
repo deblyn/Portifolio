@@ -4,26 +4,29 @@
 /* |== Footer ==| */
 
 div#footer {
-	background-color: #266692;
+  clear: both;
+  max-height: 55px;
+  background-color: #266692;
 }
 
 .imgfooter  {
 	margin: 7px 10px;
-	float: right;
+	float: left;
 }
 
 #esp {
 	font-size: 10px;
-	float: left;
 }
-
 
 #assinatura {
+	margin: -2% 25% 0;
+	padding-bottom: 3px;
 	text-align: center;
-	max-width: 15%;
-	display: inline;
 }
 
+div#validator {
+	margin: 1% 0 0 80%;
+}
 span#twitter {
 	font-family: PICOBLA;
 	font-size: 14px;

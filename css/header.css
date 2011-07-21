@@ -5,14 +5,8 @@
 
 @font-face {
 	/*Font da Logo */
-	font-family: 'troglo';
-	src: url('../font/troglo.ttf'),
-	url('../font/troglo.eot?#iefix');
 	
 	/*Font do Twitter*/
-	font-family: 'PICOBLA'; 
-	src: url('../font/PICOBLA_.ttf'),
-	url('../font/PICOBLA_.eot?#iefix');
 }
 
 
@@ -82,15 +76,15 @@ div#menu ul li {
 	margin: 0 5px; padding: 0 16px;
 	letter-spacing: 2px;
 	line-height: 25px;
-	color: #FFF;
 	font-weight: bold; font-size: 14px;
 	
 }
 
 div#menu a {font-size: 14px;}
 
+
 div#menu ul li:hover{
-	background-color: #08132b;
+	background-color: #FFF;
 	font-size: 14px;	
-	color: #0C6;
+	color: #000;
 }

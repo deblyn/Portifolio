@@ -1,22 +1,16 @@
 <?php require_once("header.php") ?>
   <div class="expesq">
-        <p><span>Site: <a href="<?php ?>">www.animeideia.com.br</a><br /><br />
-        Desenvolvido em: <br />
-        <?php ?> <br /><br />
-        Ano: <br />
-        <?php ?> <br /></span>
-        <span class="detalhes">mais detalhes</span></p>
-        <img src="images/site.png" alt="" />
+        <img src="images/tema.png" alt="" />
+        <p>Nome: Tema Sistemas S.A.<br /><br />
+        Informações: <br /><br />
+        Tempo: <br /> <br /></p>
   </div>
    
   <div class="expdir">
-       <p><span>Site: <a href="<?php ?>">www.animeideia.com.br</a><br /><br />
-        Desenvolvido em: <br />
-        <?php ?> <br /><br />
-        Ano: <br />
-        <?php ?> <br /></span>
-        <span class="detalhes">mais detalhes</span></p>
-        <img src="images/site.png" alt="" />
+       <img src="images/tema.png" alt="" />
+       <p>Nome: Tema Sistemas S.A.<br /><br />
+        Informações: <br /><br />
+        Tempo: <br /> <br /></p>
   </div>
   
 <?php require_once("footer.php") ?>

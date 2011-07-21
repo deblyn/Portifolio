@@ -8,12 +8,13 @@
 					<img src="images/dw_icon.png" alt="Dreamweaver CS5" class="imgfooter" />
 					<img src="images/flash_icon.png" alt="Flash CS5" class="imgfooter" />
 				</div>
+                <div id="validator"><a href="http://validator.w3.org/check?uri=referer" title="Validar XHTML W3C"><img src="images/xhtml_w3c.png" alt="XHTML W3C Validator" /></a>
+	                    <a href="http://validator.w3.org/check?uri=referer"><img src="images/css_w3c.png" alt="W3C - CSS3 Validator" /></a></div>
+					
+                
 					<div id="assinatura">
-	                <a href="http://validator.w3.org/check?uri=referer" title="Validar XHTML W3C"><img src="images/xhtml_w3c.png" alt="XHTML W3C Validator" class="imgfooter" /></a>
-	                    <a href="http://validator.w3.org/check?uri=referer"><img src="images/css_w3c.png" alt="W3C - CSS3 Validator" class="imgfooter" /></a>
-						<p>Todos os Direitos Reservados | Design por DadMoraes<br />Desenvolvido por Deblyyn Prado - 2011</p>
-	                    
-					</div>
+                    <p>Todos os Direitos Reservados | Design por DadMoraes<br />Desenvolvido por Deblyn P. Prado - 2011</div>
+	                
                 </div>
                 <div><span id="twitter">twitter</span></div>
 		</div> <!--==| | Fechando a div id="container" | |==-->	

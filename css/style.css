@@ -22,8 +22,10 @@
 hr {
 	line-height: 10px;
 	border: 2px solid white;
-
 }
+
+.clear{clear: both;}
+
 
 /* FIM do Reset */
 
@@ -82,19 +84,78 @@ h2 hr {
 	margin-top: 0;
 }
 
-.left {
+img.leftandamento{
 	margin-top: 2%;
 }
+
+img.rightandamento {
+	margin-top: 2%;
+	margin-left: 80%;
+}
+
+h3.leftandamento {
+	margin-top: -13%;
+	margin-left: 16%;
+}
+
+h3.rightandamento {
+	margin-top: -5%;
+	margin-left: 50%;
+}
+
+p.leftandamento {
+	margin: 2% 5% 2% 16%;
+	text-align: justify;
+}
+
+p.rightandamento {
+	margin: 2% 0 2% -2%;
+	text-align: right;
+	width: 80%;
+}
+
 
 .andamento h3, .concluido h3 {
 	color: #266692;
 }
 
-.andamento h3
+.concluido {
+	padding-right: 5%;
+	background-color: #08132b;
+	text-align: right;
+}
 
+img.leftconcluido {
+	margin-top: 2%;
+	margin-right: 80%;
+}
+
+h3.leftconcluido {
+	margin-top: -12%;
+	margin-right: 68%;
+}
+h3.rightconcluido {
+	margin: -5% 17% 8% 6%;
+}
+
+img.rightconcluido {
+	margin-top: 2%;
+}
+
+p.rightconcluido {
+	margin: -6% 17% 10% 6%;
+	text-align: right;
+}
+
+p.leftconcluido {
+	text-align: justify;
+	margin: 2% 0 0 22%;
+}
 /* -==| Estilos de experiencia |==- */
 
 div.expesq, div.expdir {
+	border: 1px solid #08132b;
+  	background-color: #08132b;
 	min-height: 100%; min-width: 420px;
 	display: inline; float: left;
 	margin: 20px 4% 50px 4%;
@@ -102,5 +163,42 @@ div.expesq, div.expdir {
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
+}
 
+div.expesq img, div.expdir img {
+	margin: 3%;
+}
+
+div.expesq p, div.expdir p {
+	float: right;
+	margin: 0 38% 0 0;
+	width: auto;
+	line-height: 8px;
+}
+
+/* -==| Estilos de contato |==- */
+
+form.contato {
+	width: 432px;
+	margin: 0 25%;
+}
+
+form.contato label{
+	float: left;
+	margin: 0 15% 2% 15%;
+}
+
+form.contato small{
+	color: red;
+}
+
+form.contato input, textarea{
+	float: right;
+	color:#000;
+}
+
+form.contato input.botao{
+	float: none;
+	margin: 4% 65%;
+	border: 2px solid white;
 }
