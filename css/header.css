@@ -5,16 +5,35 @@
 
 @font-face {
 	/*Font da Logo */
-	
+	font-family: "troglo";
+	src: url("../font/troglo.ttf");
+	scr: url("../font/troglo.eot#iefix");
+}
+
+@font-face {
 	/*Font do Twitter*/
+	font-family: "picobla";
+	src: url("../font/PICOBLA_.TTF");
+	scr: url("../font/PICOBLA_.eot#iefix");
+}
+
+@font-face {
+	/*Font do Linkedin*/
+	font-family: "MyriadPro-BoldCond";
+	src: url("../font/MyriadPro-BoldCond.eot#?iefix");
+	src: url("../font/MyriadPro-BoldCond.ttf");
+}
+
+@font-face {
+	/*Font do about.me*/
+	font-family: "FacitWeb";
+	src:url("http://webfonts.justanotherfoundry.com/Facit/FR")
 }
 
 
 /* |== Arte do Header: Logo, Título, Descrição e Menus |== */
 
-#header {
-	background-color: #266692;
-}
+div#header { background-color: #266692; }
 
 img#foto {
 	position: relative;
@@ -54,9 +73,7 @@ div#logo {
 }
 
 
-div.logo span{
-	color: #08132b;
-}
+div.logo span{ color: #08132b; }
 
 div#header hr {
 	margin-top: 55px;
@@ -65,26 +82,28 @@ div#header hr {
 
 
 div#menu ul{
-	width: 125%; height:25px;
-	margin-left: -82px; margin-top: 224px;
+	width: 121%; height:25px;
+	margin: 230px -64px 0 -17%;
 	padding: 10px 0;
 	font-size: 14px;
 }
 
 div#menu ul li { 
 	float: left; 
-	margin: 0 5px; padding: 0 16px;
+	padding: 0 10px;
 	letter-spacing: 2px;
 	line-height: 25px;
 	font-weight: bold; font-size: 14px;
-	
 }
 
-div#menu a {font-size: 14px;}
+div#menu a { font-size: 14px; }
 
 
-div#menu ul li:hover{
-	background-color: #FFF;
+div#menu ul li:active{
+	font-style:italic;
+	color: red;
 	font-size: 14px;	
-	color: #000;
+	background-image:url(../images/marcador.png);
+	background-repeat: no-repeat;
+	background-position:bottom;
 }

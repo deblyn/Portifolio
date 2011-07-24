@@ -13,10 +13,19 @@
 					
                 
 					<div id="assinatura">
-                    <p>Todos os Direitos Reservados | Design por DadMoraes<br />Desenvolvido por Deblyn P. Prado - 2011</div>
+                    <p>Todos os Direitos Reservados | Design por DadMoraes<br />Desenvolvido por Deblyn P. Prado - 2011</p></div>
 	                
                 </div>
-                <div><span id="twitter">twitter</span></div>
+                <div id="footerbar">
+                	<ul id="redes">
+	                	<li><a href="http://twitter.com/deblynprado" id="twitter">twitter</a></li>
+	                    <li><a href="" id="facebook">facebook</a></li>
+	                    <li><a href="" id="linkedin">Linked<span>in</span></a></li>
+	                    <li><a href="" id="aboutme">about<span>.me</span></a></li>
+	                    <li><a href="" id="curriculo">currículo</a></li>
+                    </ul>
+                </div>    
+                    
 		</div> <!--==| | Fechando a div id="container" | |==-->	
 	</body>
 </html>

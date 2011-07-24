@@ -25,10 +25,65 @@ div#footer {
 }
 
 div#validator {
-	margin: 1% 0 0 80%;
+	margin: 1% 0 0 75%;
 }
-span#twitter {
+
+div#footerbar {
+	height: 40px; width: 100%;
+ 	position: fixed;
+	bottom: 0;
+	background-color:#0d4273;
+}
+
+ul#redes {
+	width: 121%; height:25px;
+	padding: 2% 17%;
+}
+
+ul#redes li {
+	float: left; 
+	padding: 0 15px;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+
+ul#redes li a{font-size: 20px;}
+ul#redes li a span{font-size: 20px;}
+
+a#twitter {
 	font-family: PICOBLA;
-	font-size: 14px;
-	color: #6DD9F5;
+	color: #6DD9F5;	
 }
+
+a#facebook{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	font-weight: bold;
+}
+
+a#linkedin {
+	font-family: MyriadPro-BoldCond;
+	color: #000;
+	font-weight:bold;
+}
+
+a#linkedin span {
+	font-family: MyriadPro-BoldCond;
+	background-color: #006699;
+	font-weight:bold;
+}
+
+a#aboutme {
+	font-family: FacitWeb;
+	color: #000;
+	letter-spacing: -1px;
+}
+
+a#aboutme span{
+	font-family: FacitWeb;
+	color: #ebb21a;
+	letter-spacing: -1px;
+	margin: 0 2px;
+}
+
+a#curriculo {font-family: troglo;}
