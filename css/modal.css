@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mask {
+	position:absolute;
+	z-index:9000;
+	background-color:#000;
+	display:none;
+}
+
+#boxes .window {
+	position:absolute;
+	width:1024px;
+	height:768px;
+	display:none;
+	z-index:9999;
+	padding:20px;
+}
+
+/* Personalize a janela modal aqui. Você pode adicionar uma imagem de fundo. */
+
+#boxes #anime {
+	width:1024;
+	height:768px;
+}
+/* posiciona o link para fechar a janela */
+.close {
+	display:block;
+	text-align:right;
+}

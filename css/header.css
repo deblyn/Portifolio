@@ -37,7 +37,7 @@ div#header { background-color: #266692; }
 
 img#foto {
 	position: relative;
-	margin: 30px 0 0 0;
+	margin: 30px 5px 0;
 }
 
 h1 {
@@ -61,6 +61,50 @@ div#inf {
 	font-size: 10px;
 }
 
+.bold{font-weight: bold;}
+strong{font-weight: normal;}
+
+span.ie{
+	transition: all 2s ease-in;
+	-webkit-transition: all 2s ease-in;
+	-moz-transition: all 2s ease-in;
+	-o-transition: all 2s ease-in;
+	
+	text-decoration:underline;
+	color: #FFF;
+	font-weight: normal;
+
+}
+
+span.ie:hover{
+	transition: all 2s ease-in;
+	-webkit-transition: all 2s ease-in;
+	-moz-transition: all 2s ease-in;
+	-o-transition: all 2s ease-in;
+	
+	font-weight: bold;
+	color: #08132b;
+	background-color:#FFF;
+	text-decoration: none;
+}
+
+div#inf a{
+	transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	color: #08132b;
+	font-weight: bold;
+}
+
+div#inf a:hover{
+	transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	color:#FFF;
+	text-decoration: underline;
+}
 
 
 div#logo {
@@ -76,7 +120,7 @@ div#logo {
 div.logo span{ color: #08132b; }
 
 div#header hr {
-	margin-top: 55px;
+	margin-top: 19px;
 	margin-bottom: 50px;
 }
 

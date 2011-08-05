@@ -18,11 +18,11 @@
                 </div>
                 <div id="footerbar">
                 	<ul id="redes">
-	                	<li><a href="http://twitter.com/deblynprado" id="twitter">twitter</a></li>
-	                    <li><a href="" id="facebook">facebook</a></li>
-	                    <li><a href="" id="linkedin">Linked<span>in</span></a></li>
-	                    <li><a href="" id="aboutme">about<span>.me</span></a></li>
-	                    <li><a href="" id="curriculo">currículo</a></li>
+	                	<li><a href="http://twitter.com/deblynprado" title="Perfil do Twitter" id="twitter">twitter</a></li>
+	                    <li><a href="http://www.facebook.com/deblynprado" title="Perfil do facebook" id="facebook">facebook</a></li>
+	                    <li><a href="http://br.linkedin.com/pub/deblyn-prado/21/a2b/975" title="Perfil do Linkedin" id="linkedin">Linked<span>in</span></a></li>
+	                    <li><a href="http://about.me/deblyn" title="Perfil do about.me" id="aboutme">about<span>.me</span></a></li>
+	                    <li><a href="" id="curriculo" title="Download do Currículo">currículo</a></li>
                     </ul>
                 </div>    
                     

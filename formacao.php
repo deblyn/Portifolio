@@ -1,5 +1,6 @@
 <?php require_once("header.php") ?>
-	<div class="andamento">
+	<div id="formacao">
+    	<div class="andamento">
     	<h2>Em Andamento</h2><hr/>
         <img class="leftandamento" src="images/ilearn.gif" alt="Logo iLearn" />
         <h3 class="leftandamento">Webmaster - iLearn</h3>
@@ -32,5 +33,6 @@
             Detalhes: 
         </p>
 
+    </div>
     </div>
 <?php require_once("footer.php") ?>

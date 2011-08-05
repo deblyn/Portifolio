@@ -33,11 +33,13 @@ div#footerbar {
  	position: fixed;
 	bottom: 0;
 	background-color:#0d4273;
+	opacity:0.9;
+	width: 960px;
 }
 
 ul#redes {
 	width: 121%; height:25px;
-	padding: 2% 17%;
+	padding: 15px 17%;
 }
 
 ul#redes li {

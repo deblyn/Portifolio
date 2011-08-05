@@ -6,6 +6,7 @@
 
 @import url("header.css");
 @import url("footer.css");
+@import url("modal.css");
 
 /* Reset nas Configurações do Browser e padronizando de acordo com o layout do site */
 
@@ -29,13 +30,13 @@ hr {
 
 /* FIM do Reset */
 
-
 #container {
 	background-color: #112c4a;
-	min-height: 100%; width: 1024px;
+	min-height: 100%; width: 960px;
 	height: 100%;
 	margin: 0 auto;
 	margin-bottom: 40px;
+	min-height: 768px;
 }
 
 /* -==| Estilos da home |==- */
@@ -44,7 +45,7 @@ div.esq, div.dir {
 	min-height: 100%; min-width: 420px;
 	display: inline; float: left;
 	background-color: #08132b;
-	margin: 20px 4% 50px 4%;
+	margin: 20px 3% 50px;
 	padding: 2% 0;
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -76,33 +77,18 @@ div.esq p span.detalhes, div.dir p span.detalhes {
 
 /* -==| Estilos de formacao |==- */
 
-.andamento {
-	padding-left: 5%;
+div#formacao {
 	background-color: #08132b;
+	position: relative;
+	top: -50px;
+	padding-top: 50px;
 }
-
-h2 hr {
-	margin-top: 0;
-}
-
-img.leftandamento{
-	margin-top: 2%;
-}
-
-img.rightandamento {
-	margin-top: 2%;
-	margin-left: 80%;
-}
-
-h3.leftandamento {
-	margin-top: -13%;
-	margin-left: 16%;
-}
-
-h3.rightandamento {
-	margin-top: -5%;
-	margin-left: 50%;
-}
+.andamento {padding-left: 5%;}
+h2 hr {margin-top: 0;}
+img.leftandamento{margin-top: 2%;}
+img.rightandamento {margin: 2% 0 0 80%;}
+h3.leftandamento {margin: -13% 0 0 16%;}
+h3.rightandamento {margin: -5% 0 0 50%;}
 
 p.leftandamento {
 	margin: 2% 5% 2% 16%;
@@ -116,9 +102,7 @@ p.rightandamento {
 }
 
 
-.andamento h3, .concluido h3 {
-	color: #266692;
-}
+.andamento h3, .concluido h3 {color: #266692;}
 
 .concluido {
 	padding-right: 5%;
@@ -126,22 +110,10 @@ p.rightandamento {
 	text-align: right;
 }
 
-img.leftconcluido {
-	margin-top: 2%;
-	margin-right: 80%;
-}
-
-h3.leftconcluido {
-	margin-top: -12%;
-	margin-right: 68%;
-}
-h3.rightconcluido {
-	margin: -5% 17% 8% 6%;
-}
-
-img.rightconcluido {
-	margin-top: 2%;
-}
+img.leftconcluido {margin: 2% 80% 0 0;}
+h3.leftconcluido {margin: -12% 68% 0 0;}
+h3.rightconcluido {margin: -5% 17% 8% 6%;}
+img.rightconcluido {margin-top: 2%;}
 
 p.rightconcluido {
 	margin: -6% 17% 10% 6%;
@@ -159,7 +131,7 @@ div.expesq, div.expdir {
   	background-color: #08132b;
 	min-height: 100%; min-width: 420px;
 	display: inline; float: left;
-	margin: 20px 4% 50px 4%;
+	margin: 20px 3% 50px;
 	padding: 2% 0;
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
